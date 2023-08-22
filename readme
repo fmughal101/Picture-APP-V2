@@ -1,0 +1,13 @@
+📷 Picture APP
+Simple, Sleek, Stunning: Dive into a world of simplicity with Picture APP, the essence of photo-sharing.
+
+🌟 Features
+Authentic You: Set up your unique profile with our secure Firebase authentication.
+Snap & Share: Post your moments and let the world see them.
+Power of Edit: Change your mind? Easily edit or delete your posts whenever you wish.
+Engage & Connect: Like what you see? Give a thumbs up and drop a heartening comment.
+Hassle-free & Robust: With MongoDB on the backend, your activities and interactions are smooth as silk and as quick as a flash.
+
+📝 NOTES:
+If you try to clone and run the program it will not work due to the database not being connected properly.
+This was done for security reasons
