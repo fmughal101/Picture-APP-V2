@@ -1,0 +1,103 @@
+.menu-container {
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.25);
+  /* background-color: black; */
+  z-index: 5;
+  position: fixed;
+  left: 0;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+
+menu {
+  background-color: rgb(240, 240, 240);
+  text-align: center;
+  width: 400px;
+  border-radius: 15px;
+  margin: 5px;
+  min-width: 270px;
+}
+
+.menu-title {
+  padding: 20px 30px;
+}
+
+.horizontal {
+  display: flex;
+}
+
+.horizontal .menu-item {
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 2px;
+}
+
+.horizontal .menu-item:first-child {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 15px;
+  border-bottom: 1px solid black;
+}
+
+.horizontal .menu-item:last-child {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-left: none;
+}
+
+menu textarea {
+  max-width: 250px;
+  max-height: 150px;
+  height: 50px;
+  margin-inline: 5px;
+  margin-bottom: 10px;
+}
+
+.menu-item {
+  border: 1px solid black;
+  padding: 20px 30px;
+  cursor: pointer;
+}
+
+.menu-item.red {
+  color: red;
+}
+
+.menu-item:hover {
+  background-color: white;
+  transition: all 0.25s ease-in-out;
+}
+
+.menu-item:first-child {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom: none;
+}
+
+.menu-item:last-child {
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.menu-container.dark {
+  background-color: rgba(255, 255, 255, 0.25);
+  color: white;
+}
+
+.menu-container.dark menu {
+  background-color: rgb(20, 20, 20);
+}
+
+.menu-container.dark menu .menu-item {
+  border-color: white;
+}
+
+.menu-container.dark menu .menu-item:hover {
+  background-color: rgb(50, 50, 50);
+}

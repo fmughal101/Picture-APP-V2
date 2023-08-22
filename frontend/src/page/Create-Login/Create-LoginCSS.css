@@ -1,0 +1,109 @@
+.create-account-login {
+  height: 100vh;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 350px;
+  border: 1px solid red;
+  text-align: center;
+  margin-inline: 5px;
+  border: 1px solid #8e8e8e6e;
+  padding: 30px 40px;
+  background-color: white;
+  margin-top: 10px;
+  min-width: 250px;
+}
+
+.error {
+  background-color: rgb(245, 65, 65);
+}
+
+.text {
+  font-size: 12px;
+}
+
+.text a {
+    text-decoration: none;
+    color: skyblue
+  }
+
+header {
+  margin-bottom: 15px;
+}
+
+.logo {
+  white-space: nowrap;
+}
+
+.btn {
+  padding: 10px 0;
+  display: inline-block;
+  border: none;
+  background-color: skyblue;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn.create-account {
+  margin-top: 10px;
+}
+
+.account-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.account-input {
+  height: 30px;
+  border-radius: 3px;
+  border: 1px solid #8e8e8e6e;
+  padding: 5px;
+  margin-bottom: 6px;
+}
+
+.divider {
+  margin: 6px 0;
+  display: flex;
+  align-items: center;
+}
+
+.left,
+.right {
+  display: block;
+  height: 1px;
+  width: 100%;
+  background-color: black;
+}
+
+.or {
+  margin-inline: 5px;
+}
+
+@media (max-width: 350px) {
+  .container {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 290px) {
+  header {
+    font-size: 12px;
+  }
+}
+
+.container.dark {
+  background-color: black;
+  color: white;
+}
+
+.container.dark .left {
+  background-color: white;
+}
+
+.container.dark .right {
+  background-color: white;
+}
